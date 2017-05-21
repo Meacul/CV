@@ -47,8 +47,19 @@ li a:hover:not(.active) {
   padding: 0 0 0.5em;
 }
 
-.content {
-	margin-left: 25%;
+article {
+	position: fixed;
+	width: 79.7%;
+	height: 100%;
+	float: right;
+	margin-left: 20%;
+	background-color: black;
+	color: white;
+	box-sizing: border-box;
+	padding-left: 30px;
+	padding: 20px;
+	overflow-y: scroll;
+	overflow-x: visible;
 }
 .menu > li {
   display: inline;
