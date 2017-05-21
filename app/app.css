@@ -47,6 +47,12 @@ li a:hover:not(.active) {
   padding: 0 0 0.5em;
 }
 
+img {
+	max-width: 25%;
+	height: auto;
+	border-radius: 7px;
+	float: right;
+}
 article {
 	position: fixed;
 	width: 79.7%;
