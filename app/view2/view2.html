@@ -1,4 +1,9 @@
-<p>This is the partial for view 2.</p>
+<ul ng-controller="ListController">
+	<li ng-repeat="position in positions">
+		<span>{{position.time}}</span>
+		<p>{{position.info}}</p>
+	</li>
+</ul>
 <p>
   Showing of 'interpolate' filter:
   {{ 'Current version is v%VERSION%.' | interpolate }}

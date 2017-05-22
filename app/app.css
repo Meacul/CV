@@ -10,7 +10,7 @@ header {
 
 }
 
-ul {
+ul.menu {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -23,7 +23,7 @@ ul {
 
 }
 
-li a {
+li.nav a {
 	display: block;
 	color: white;
 	padding: 6px 10px;
@@ -32,11 +32,11 @@ li a {
 	border-bottom: 1px solid black;
 }
 
-li a.active {
+li.nav a.active {
 	background-color: orange;
 	color: black;
 }
-li a:hover:not(.active) {
+li.nav a:hover:not(.active) {
 	background-color: white;
 	color: black;
 }
