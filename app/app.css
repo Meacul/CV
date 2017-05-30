@@ -19,8 +19,8 @@ ul.menu {
 	position: fixed;
 	overflow: auto;
 	background-color: gray;
-	border: 3px solid black;
-
+	border: 3px solid red;
+	box-sizing: border-box;
 }
 
 li.nav a {
@@ -55,7 +55,7 @@ img {
 }
 article {
 	position: fixed;
-	width: 79.7%;
+	width: 80%;
 	height: 100%;
 	float: right;
 	margin-left: 20%;
@@ -66,6 +66,7 @@ article {
 	padding: 20px;
 	overflow-y: scroll;
 	overflow-x: visible;
+	border: 3px solid blue;
 }
 .menu > li {
   display: inline;
